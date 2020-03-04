@@ -4,6 +4,7 @@ func _physics_process(delta):
 	controls_loop()
 	movement_loop()
 	spritedir_loop()
+	damage_loop()
 	
 	if is_on_wall(): #push wall if walking into it
 		if spritedir == "left" and test_move(transform, dir.left):
@@ -31,7 +32,10 @@ func controls_loop():
 	var UP       = Input.is_action_pressed("ui_up")
 	var DOWN     = Input.is_action_pressed("ui_down")
 	
+	#Add both IF statements below to allow diagonals, keep for pkmn-like movement
+	#if movedir.y == 0:
 	movedir.x = -int(LEFT) + int(RIGHT)
+	#if movedir.x == 0:
 	movedir.y = -int(UP) + int(DOWN)
 	
 
