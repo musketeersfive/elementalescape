@@ -13,7 +13,7 @@ func _ready():
 	if get_parent().has_method("state_swing"):
 		get_parent().state = "swing"
 	
-func destroy(animation):
+func destroy(_animation):
 	if get_parent().has_method("state_swing"):
 		get_parent().state = "default"
 	queue_free() #delete itself so a new item can be spawned later

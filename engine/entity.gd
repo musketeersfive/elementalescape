@@ -17,6 +17,7 @@ var texture_hurt = null
 
 func _ready():
 	if TYPE == "ENEMY":
+		set_collision_mask_bit(1,1) #stop enemies from getting stuck outside camera dimensions (see mask and layer in StaticBody2d camera)
 		set_physics_process(false)
 	texture_default = $Sprite.texture
 	texture_hurt = load($Sprite.texture.get_path().replace(".png","_hurt.png"))
@@ -66,6 +67,7 @@ func damage_loop():
 			knockdir = global_transform.origin - body.global_transform.origin
 
 func use_item(item):
+	
 	var newitem = item.instance()
 	newitem.add_to_group(str(item, self))
 	add_child(newitem)

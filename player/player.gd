@@ -2,7 +2,7 @@ extends entity
 
 var state = "default"
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	match state: #start state machine
 		"default":
 			state_default()
@@ -46,8 +46,8 @@ func controls_loop():
 	var DOWN     = Input.is_action_pressed("ui_down")
 	
 	#Add both IF statements below to allow diagonals, keep for pkmn-like movement
-	#if movedir.y == 0:
-	movedir.x = -int(LEFT) + int(RIGHT)
-	#if movedir.x == 0:
-	movedir.y = -int(UP) + int(DOWN)
+	if movedir.y == 0:
+		movedir.x = -int(LEFT) + int(RIGHT)
+	if movedir.x == 0:
+		movedir.y = -int(UP) + int(DOWN)
 	
