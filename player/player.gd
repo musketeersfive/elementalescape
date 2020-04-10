@@ -3,6 +3,7 @@ extends entity
 var state = "default"
 
 var keys = 0
+var items = []
 
 func _physics_process(_delta):
 	match state: #start state machine
@@ -33,8 +34,8 @@ func state_default():
 	else:
 		anim_switch("idle")
 		
-	if Input.is_action_just_pressed("a"):
-		use_item(preload("res://items/sword.tscn"))
+	#if Input.is_action_just_pressed("a"):
+		#use_item(preload("res://items/sword.tscn"))
 
 func state_swing():
 	anim_switch("idle")
