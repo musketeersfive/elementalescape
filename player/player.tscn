@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://player/player.png" type="Texture" id=1]
 [ext_resource path="res://player/player.gd" type="Script" id=2]
@@ -14,10 +14,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 0, 1 ]
+"values": [ 0 ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -31,10 +31,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 6, 7 ]
+"values": [ 7 ]
 }
 
 [sub_resource type="Animation" id=3]
@@ -48,10 +48,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 4, 5 ]
+"values": [ 5 ]
 }
 
 [sub_resource type="Animation" id=4]
@@ -65,10 +65,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 2, 3 ]
+"values": [ 3 ]
 }
 
 [sub_resource type="Animation" id=5]
@@ -206,8 +206,14 @@ tracks/0/keys = {
 [sub_resource type="RectangleShape2D" id=13]
 extents = Vector2( 6, 7 )
 
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 7, 8 )
+
 [node name="player" type="KinematicBody2D"]
 script = ExtResource( 2 )
+TYPE = "PLAYER"
+MAXHEALTH = 10.0
+health = 10.0
 
 [node name="anim" type="AnimationPlayer" parent="."]
 playback_speed = 3.0
@@ -228,6 +234,7 @@ anims/walkup = SubResource( 12 )
 texture = ExtResource( 1 )
 vframes = 2
 hframes = 8
+frame = 2
 __meta__ = {
 "_edit_lock_": true
 }
@@ -236,3 +243,9 @@ __meta__ = {
 visible = false
 position = Vector2( -0.0107565, 0.0107546 )
 shape = SubResource( 13 )
+
+[node name="hitbox" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+shape = SubResource( 14 )
