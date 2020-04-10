@@ -2,12 +2,15 @@ extends entity
 
 var state = "default"
 
+var keys = 0
+
 func _physics_process(_delta):
 	match state: #start state machine
 		"default":
 			state_default()
 		"swing":
 			state_swing()
+	keys = min(keys, 9)
 
 func state_default():
 	controls_loop()

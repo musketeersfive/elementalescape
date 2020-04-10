@@ -1,7 +1,7 @@
 extends Node2D
 
 var TYPE = null
-export(int) var DAMAGE = 1
+export(float) var DAMAGE = 0.5
 
 var maxamount = 1 #how many of this item can exist for an entity
 #eg. arrows 3 means only 3 arrows on screen from this entity

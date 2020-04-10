@@ -1,6 +1,6 @@
 extends entity
 
-export(int) var DAMAGE = 1
+export(float) var DAMAGE = 1.0
 
 var movetimer_length = 15
 var movetimer = 0

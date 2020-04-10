@@ -14,10 +14,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 0, 1 ]
+"values": [ 0 ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -31,10 +31,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 6, 7 ]
+"values": [ 7 ]
 }
 
 [sub_resource type="Animation" id=3]
@@ -48,10 +48,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 4, 5 ]
+"values": [ 5 ]
 }
 
 [sub_resource type="Animation" id=4]
@@ -65,10 +65,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 2, 3 ]
+"values": [ 3 ]
 }
 
 [sub_resource type="Animation" id=5]
@@ -212,6 +212,8 @@ extents = Vector2( 7, 8 )
 [node name="player" type="KinematicBody2D"]
 script = ExtResource( 2 )
 TYPE = "PLAYER"
+MAXHEALTH = 10.0
+health = 10.0
 
 [node name="anim" type="AnimationPlayer" parent="."]
 playback_speed = 3.0
@@ -232,6 +234,7 @@ anims/walkup = SubResource( 12 )
 texture = ExtResource( 1 )
 vframes = 2
 hframes = 8
+frame = 2
 __meta__ = {
 "_edit_lock_": true
 }
