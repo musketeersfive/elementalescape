@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stalfos_old.png-f9367dc3d15d501c927717edc367a4a8.stex"
+path="res://.import/hazard_death.png-1e6dd4c03506222026429f1ceaf6bb55.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://enemies/stalfos_old.png"
-dest_files=[ "res://.import/stalfos_old.png-f9367dc3d15d501c927717edc367a4a8.stex" ]
+source_file="res://assets/graphics/hazards/hazard_death.png"
+dest_files=[ "res://.import/hazard_death.png-1e6dd4c03506222026429f1ceaf6bb55.stex" ]
 
 [params]
 

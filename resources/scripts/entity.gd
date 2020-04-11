@@ -58,7 +58,7 @@ func damage_loop():
 			var drop = randi() % 3 #0-3
 			if drop == 0:
 				instance_scene(preload("res://resources/objects/pickups/heart.tscn")) #25% chance
-			instance_scene(preload("res://enemies/enemy_death.tscn"))
+			instance_scene(preload("res://resources/objects/hazards/hazard_death.tscn"))
 			queue_free() #enemy dies
 	for area in $hitbox.get_overlapping_areas():
 		var body = area.get_parent()
@@ -70,7 +70,7 @@ func damage_loop():
 			#Play sound on hurt
 			var audioPlayer = AudioStreamPlayer.new()
 			self.add_child(audioPlayer)
-			audioPlayer.stream = load("res://sound/ow.wav")
+			audioPlayer.stream = load("res://assets/sounds/sfx/ow.wav")
 			audioPlayer.play()
 
 func use_item(item):

@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/catching_fire.wav-14c2581c74693760bc11e0356956b8ce.sample"
+path="res://.import/catching_fire.wav-a811dda2e5d4862a38414bd9a1e24686.sample"
 
 [deps]
 
-source_file="res://sound/catching_fire.wav"
-dest_files=[ "res://.import/catching_fire.wav-14c2581c74693760bc11e0356956b8ce.sample" ]
+source_file="res://assets/sounds/sfx/catching_fire.wav"
+dest_files=[ "res://.import/catching_fire.wav-a811dda2e5d4862a38414bd9a1e24686.sample" ]
 
 [params]
 

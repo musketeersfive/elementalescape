@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stalfos.png-bb068c6a224afd64a485694810aeb984.stex"
+path="res://.import/fire.png-01928072f8d02d68cd55bdecc0c25cfa.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://enemies/stalfos.png"
-dest_files=[ "res://.import/stalfos.png-bb068c6a224afd64a485694810aeb984.stex" ]
+source_file="res://assets/graphics/hazards/fire.png"
+dest_files=[ "res://.import/fire.png-01928072f8d02d68cd55bdecc0c25cfa.stex" ]
 
 [params]
 

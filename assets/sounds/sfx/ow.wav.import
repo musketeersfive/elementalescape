@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/ow.wav-21ac06d91e26d9ff8012c942168a9fb8.sample"
+path="res://.import/ow.wav-c66e9f78cec3a22a7899a948e8a6d206.sample"
 
 [deps]
 
-source_file="res://sound/ow.wav"
-dest_files=[ "res://.import/ow.wav-21ac06d91e26d9ff8012c942168a9fb8.sample" ]
+source_file="res://assets/sounds/sfx/ow.wav"
+dest_files=[ "res://.import/ow.wav-c66e9f78cec3a22a7899a948e8a6d206.sample" ]
 
 [params]
 

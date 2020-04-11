@@ -2,7 +2,7 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/porcelain_floor_tile_004.png-55ea3a77de72212c61ac69b89c262ba0.stex"
+path="res://.import/porcelain_floor_tile_004.png-b74df5c97ab1de3abe8b0b1b4ba5f3d6.stex"
 metadata={
 "vram_texture": false
 }
@@ -10,7 +10,7 @@ metadata={
 [deps]
 
 source_file="res://assets/graphics/tiles/porcelain_floor_tile_004.png"
-dest_files=[ "res://.import/porcelain_floor_tile_004.png-55ea3a77de72212c61ac69b89c262ba0.stex" ]
+dest_files=[ "res://.import/porcelain_floor_tile_004.png-b74df5c97ab1de3abe8b0b1b4ba5f3d6.stex" ]
 
 [params]
 
