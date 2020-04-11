@@ -9,7 +9,7 @@ metadata={
 
 [deps]
 
-source_file="res://tiles/porcelain_floor_tile_002.png"
+source_file="res://assets/graphics/tiles/porcelain_floor_tile_002.png"
 dest_files=[ "res://.import/porcelain_floor_tile_002.png-2c98f454bfdb6baa609dff8c6015c7a6.stex" ]
 
 [params]

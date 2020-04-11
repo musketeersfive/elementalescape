@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "KinematicBody2D",
 "class": "entity",
 "language": "GDScript",
-"path": "res://engine/entity.gd"
+"path": "res://resources/scripts/engine/player/entity.gd"
 } ]
 _global_script_class_icons={
 "entity": ""
@@ -26,7 +26,7 @@ config/icon="res://icon.png"
 
 [autoload]
 
-dir="*res://engine/directions.gd"
+dir="*res://resources/scripts/engine/player/directions.gd"
 
 [display]
 

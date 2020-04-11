@@ -9,7 +9,7 @@ metadata={
 
 [deps]
 
-source_file="res://pickups/fire_wand.png"
+source_file="res://resources/objects/pickups/fire_wand.png"
 dest_files=[ "res://.import/fire_wand.png-2fd08f2ab4577bf92c9244ebf68b53fb.stex" ]
 
 [params]

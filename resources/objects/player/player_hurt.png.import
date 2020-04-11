@@ -9,7 +9,7 @@ metadata={
 
 [deps]
 
-source_file="res://player/player_hurt.png"
+source_file="res://resources/objects/player/player_hurt.png"
 dest_files=[ "res://.import/player_hurt.png-598859d6dbada5877a1f8b700bd570e0.stex" ]
 
 [params]

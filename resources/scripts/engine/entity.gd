@@ -57,7 +57,7 @@ func damage_loop():
 		if TYPE == "ENEMY" && health <= 0:
 			var drop = randi() % 3 #0-3
 			if drop == 0:
-				instance_scene(preload("res://pickups/heart.tscn")) #25% chance
+				instance_scene(preload("res://resources/objects/pickups/heart.tscn")) #25% chance
 			instance_scene(preload("res://enemies/enemy_death.tscn"))
 			queue_free() #enemy dies
 	for area in $hitbox.get_overlapping_areas():

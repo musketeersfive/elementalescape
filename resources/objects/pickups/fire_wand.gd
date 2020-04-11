@@ -1,4 +1,4 @@
-extends "res://pickups/pickup.gd"
+extends "res://resources/objects/pickups/pickup.gd"
 
 func body_entered(body):
 	if body.name == "player":

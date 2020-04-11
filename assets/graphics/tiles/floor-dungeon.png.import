@@ -9,7 +9,7 @@ metadata={
 
 [deps]
 
-source_file="res://tiles/floor-dungeon.png"
+source_file="res://assets/graphics/tiles/floor-dungeon.png"
 dest_files=[ "res://.import/floor-dungeon.png-d27f754c42b9c9e81690e8bbfa7fab55.stex" ]
 
 [params]

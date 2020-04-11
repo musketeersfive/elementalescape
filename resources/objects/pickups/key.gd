@@ -1,4 +1,4 @@
-extends "res://pickups/pickup.gd"
+extends "res://resources/objects/pickups/pickup.gd"
 
 #func _ready():
 	#connect("body_entered",self,"body_entered")

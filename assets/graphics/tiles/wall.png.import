@@ -9,7 +9,7 @@ metadata={
 
 [deps]
 
-source_file="res://tiles/wall.png"
+source_file="res://assets/graphics/tiles/wall.png"
 dest_files=[ "res://.import/wall.png-5ce395d0bb3bb6421fdacc0a7ddd35b1.stex" ]
 
 [params]

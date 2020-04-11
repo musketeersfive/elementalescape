@@ -9,7 +9,7 @@ metadata={
 
 [deps]
 
-source_file="res://pickups/key.png"
+source_file="res://resources/objects/pickups/key.png"
 dest_files=[ "res://.import/key.png-536baa82a471c10601dd7b4af2778f99.stex" ]
 
 [params]
