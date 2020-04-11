@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sword_old.png-9258b9f9cbf55472436ba89eeea54edc.stex"
+path="res://.import/sword_old.png-c8ca073b7d6cf334b57e60d10804ea75.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://items/sword_old.png"
-dest_files=[ "res://.import/sword_old.png-9258b9f9cbf55472436ba89eeea54edc.stex" ]
+source_file="res://assets/graphics/items/sword_old.png"
+dest_files=[ "res://.import/sword_old.png-c8ca073b7d6cf334b57e60d10804ea75.stex" ]
 
 [params]
 

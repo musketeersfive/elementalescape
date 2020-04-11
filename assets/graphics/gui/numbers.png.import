@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/numbers.png-835c96c5f15279298ca51e03c2f78139.stex"
+path="res://.import/numbers.png-ab64a935c371e7e9f594b841a172b81b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ui/numbers.png"
-dest_files=[ "res://.import/numbers.png-835c96c5f15279298ca51e03c2f78139.stex" ]
+source_file="res://assets/graphics/gui/numbers.png"
+dest_files=[ "res://.import/numbers.png-ab64a935c371e7e9f594b841a172b81b.stex" ]
 
 [params]
 

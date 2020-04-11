@@ -2,7 +2,7 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor-grate.png-2be79af645a9c61e2b03b9295d90fb46.stex"
+path="res://.import/floor-grate.png-2de97d39d14118bdce1d2429a2c0b054.stex"
 metadata={
 "vram_texture": false
 }
@@ -10,7 +10,7 @@ metadata={
 [deps]
 
 source_file="res://assets/graphics/tiles/floor-grate.png"
-dest_files=[ "res://.import/floor-grate.png-2be79af645a9c61e2b03b9295d90fb46.stex" ]
+dest_files=[ "res://.import/floor-grate.png-2de97d39d14118bdce1d2429a2c0b054.stex" ]
 
 [params]
 

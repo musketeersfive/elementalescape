@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stalfos_hurt.png-874a0113a35662a5aa6c455af2b428e7.stex"
+path="res://.import/fire_hurt.png-192fbaa7c0f5912534b7882714f64e57.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://enemies/stalfos_hurt.png"
-dest_files=[ "res://.import/stalfos_hurt.png-874a0113a35662a5aa6c455af2b428e7.stex" ]
+source_file="res://assets/graphics/hazards/fire_hurt.png"
+dest_files=[ "res://.import/fire_hurt.png-192fbaa7c0f5912534b7882714f64e57.stex" ]
 
 [params]
 

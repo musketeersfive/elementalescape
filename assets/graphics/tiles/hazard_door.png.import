@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player_hurt.png-598859d6dbada5877a1f8b700bd570e0.stex"
+path="res://.import/hazard_door.png-4af10b86650f76aedd928deeba5e091d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/objects/player/player_hurt.png"
-dest_files=[ "res://.import/player_hurt.png-598859d6dbada5877a1f8b700bd570e0.stex" ]
+source_file="res://assets/graphics/tiles/hazard_door.png"
+dest_files=[ "res://.import/hazard_door.png-4af10b86650f76aedd928deeba5e091d.stex" ]
 
 [params]
 

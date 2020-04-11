@@ -1,6 +1,6 @@
 extends TileMap
 
-#allows us to use the enemies tilemap to spawn enemies based on tileset and filename
+#allows us to use the hazards tilemap to spawn hazards based on tileset and filename
 
 var alive = false
 
@@ -13,7 +13,7 @@ func visibility_changed():
 		var offset = size / 2
 		for tile in get_used_cells():
 			var name = get_tileset().tile_get_name(get_cell(tile.x, tile.y))
-			var node = load(str("res://enemies/",name,".tscn")).instance()
+			var node = load(str("res://resources/objects/hazards/",name,".tscn")).instance()
 			node.global_position = tile * size + offset #vector2 values
 			#get x and y, multiplied by size of each cell, plus half cell size (center of cell)		
 			get_parent().call_deferred("add_child", node)
