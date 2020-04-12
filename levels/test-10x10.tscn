@@ -10,12 +10,15 @@
 [node name="Node" type="Node"]
 
 [node name="player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 136.576, 31.0041 )
+position = Vector2( 95.4557, 92.6845 )
 MAXHEALTH = 16.0
 health = 16.0
 
-[node name="camera" parent="." instance=ExtResource( 3 )]
+[node name="camera" parent="player" instance=ExtResource( 3 )]
 visible = false
+anchor_mode = 1
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
 
 [node name="fire_wand" parent="." instance=ExtResource( 5 )]
 position = Vector2( 23.8085, 167.016 )
@@ -25,8 +28,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 2.0
 margin_top = 177.0
-margin_right = -4.0
-margin_bottom = -1.0
+margin_right = 29.0
+margin_bottom = 191.0
 size_flags_horizontal = 4
 text = "Test"
 __meta__ = {
@@ -37,7 +40,7 @@ __meta__ = {
 tile_set = ExtResource( 6 )
 cell_size = Vector2( 16, 16 )
 format = 1
-tile_data = PoolIntArray( 131073, 0, 0, 131075, 0, 0, 196609, 0, 0, 196611, 0, 0, 262145, 0, 0, 262147, 0, 0, 327681, 0, 0, 327683, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327690, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 655361, 0, 0, 655362, 0, 0, 655363, 0, 0, 655364, 0, 0, 655365, 0, 0, 655366, 0, 0, 655367, 0, 0, 655368, 0, 0, 655369, 0, 0, 655370, 0, 0 )
+tile_data = PoolIntArray( 131073, 0, 0, 131075, 0, 0, 196609, 0, 0, 196611, 0, 0, 262145, 0, 0, 262147, 0, 0, 327681, 0, 0, 327683, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327690, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 655361, 0, 0, 655362, 0, 0, 655363, 0, 0, 655364, 0, 0, 655365, 0, 0, 655366, 0, 0, 655367, 0, 0, 655368, 0, 0, 655369, 0, 0, 655370, 0, 0 )
 
 [node name="TileMap" type="TileMap" parent="."]
 z_index = -100
