@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/graphics/tiles/shelf.png" type="Texture" id=1]
+[ext_resource path="res://assets/graphics/tiles/floor-grate.png" type="Texture" id=2]
+[ext_resource path="res://assets/graphics/tiles/wall.png" type="Texture" id=3]
+
+[node name="Node" type="Node"]
+
+[node name="wall" type="Sprite" parent="."]
+texture = ExtResource( 3 )
+
+[node name="floor" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="shelf" type="Sprite" parent="."]
+texture = ExtResource( 1 )
